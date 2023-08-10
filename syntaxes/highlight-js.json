@@ -1,0 +1,21 @@
+{
+  "fileTypes": ["xml"],
+  "injectionSelector": " L:text.html.derivative",
+  "patterns": [
+    {
+      "begin": "(t-[^= ]*=\")",
+      "end": "(\")",
+      "captures": {
+        "1": {
+          "name": "js_in_owl"
+        }
+      },
+      "patterns": [
+        {
+          "include": "source.js"
+        }
+      ]
+    }
+  ],
+  "scopeName": "js.injection"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Minerva",
+  "displayName": "Minerva",
+  "description": "Syntax highlighting of js code in owl templates",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.32.0"
+  },
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/highlight-js.json",
+        "scopeName": "js.injection",
+        "injectTo": [
+          "text.html"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.js": "js"
+        }
+      }
+    ]
+  }
+}

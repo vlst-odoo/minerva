@@ -2,7 +2,10 @@
 
 This extension provides syntax highlighting of the js code of owl templates.
 
-Installing this extension will make all `t-if`, `t-att-`, etc tags white.
+You will have to use the `HTML` syntax highligher for for this to work.
+
+
+Installing this extension will make all `t-if`, `t-att-`, etc tags white
 You can use this code in the settings to make them be any color you want:
 
 ```json
